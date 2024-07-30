@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="">
+        <a href="index.html"> <p>Home</p></a>
+        <a href="page2.html"> <p>page2</p></a>
+        <a href=""><p>page3</p></a>
+      </nav>
+    </header>
+    <main class="main">
+      <aside class="sidebar"></aside>
+      <article>
+        <h2>Why HTML is a better markup language</h2>
+        <div>
+          <h3>Introduction</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident
+            unde consequatur accusamus distinctio dolorem velit laudantium
+            dolore sequi tempore! Voluptatibus quaerat exercitationem quos
+            consectetur architecto commodi pariatur alias, a sunt! Harum tempora
+            hic vel at ipsa, ducimus minus atque ratione provident placeat
+            repellendus obcaecati iure eos eum cum laudantium accusamus ullam
+            maiores est rem rerum. Molestias tempora cum aspernatur odio?
+            Numquam impedit rerum corrupti ut repellat doloribus, quis
+            repudiandae architecto facere, debitis eaque sed aperiam? Quam,
+            consectetur fuga, impedit eveniet assumenda cupiditate eaque nobis
+            ipsa a, beatae natus deserunt dignissimos.
+          </p>
+        </div>
+      </article>
+      <figure>
+        <img src="./assets/KING.jpg" alt="KING" width="500px">
+        <figcaption>KING KALLON</figcaption>
+      </figure>
+      <section></section>
+      
+      <form action="" id="form" method="post">
+         <!--there are two types of method, the get method and the post method-->
+        <h2>CONTACT US</h2>
+        <label for="name">NAME</label>
+        <input type="text" id="name" name="name" placeholder="e.g john doe" value="">
+        <br />
+        <label for="email">EMAIL</label>
+        <input type="email" id="email" name="email" placeholder="someone@example.com">
+        <br />
+        <label for="password">PASSWORD</label>
+        <input type="password" id="password" name="password">
+        <br>
+        <label for="age">AGE</label>
+        <input type="number" id="age" min="18" max="70" name="age">
+        <br>
+        <label for="doa">DATE OF APPOINTMENT</label>
+        <input type="date" min="2010-06-06" max="" id="doa" name="doa" required autofocus>
+        <br>
+        <label for="upload">UPLOAD A DOCUMENT</label>
+        <input type="file" name="document" id="upload">
+        <br>
+        <label for="nationality">SELECT YOUR COUNTRY</label>
+        <select name="name" id="nationality">
+            <option value=""disabled selected>choose a country</option>
+            <optgroup label="Africa">
+                <option value="nigeria">nigeria</option>
+                <option value="ghana">ghana</option>
+            </optgroup>
+            <optgroup label="American">
+                <option value="mexico">mexico</option>
+                <option value="brazil">brazil</option>
+            </optgroup>
+            <optgroup label="Asia">
+                <option value="china">china</option>
+                <option value="japan">japan</option>
+            </optgroup>
+        </select><br>
+        <label for="">Select your language</label>
+        <br>
+        <label for="igbo">igbo</label>
+        <input type="checkbox" name="language" id="igbo" checked value="igbo">
+        <br>
+        <label for="english">english</label>
+        <input type="checkbox" name="english" id="english" value="english">
+        <br>
+        <label for="yoruba">yoruba</label>
+        <input type="checkbox" name="" id="yoruba" value="yoruba">
+        <br>
+        <label for="">select your gender</label>
+        <br>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" value="male">
+        <br>
+        <label for="female">female</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <br>
+        <label for="others">others</label>
+        <input type="radio" name="gender" id="others" value="others">
+        <br>
+        <label for="color">COLORS</label>
+        <input type="color" name="" id="color">
+        <br>
+        <input type="submit" value="submit" name="" id="">
+        <button>SUBMIT</button>
+      </form>
+      <button form="form">submit</button>
+    </main>
+    <footer class="footer"></footer>
+  </body>
+</html>
